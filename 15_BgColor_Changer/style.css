@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #675273;
+}
+
+.btn {
+  padding: 15px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.hexCode {
+  font-size: 22px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn:active {
+  padding: 5px;
+}
